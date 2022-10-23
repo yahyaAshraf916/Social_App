@@ -18,7 +18,8 @@ void main() async {
   FirebaseMessaging.onMessage.listen((event) {
     print(event.data.toString());
   });
-
+//hello
+  // hello 2
   Bloc.observer = MyBlocObserver();
 
   await CachHelper.init();
